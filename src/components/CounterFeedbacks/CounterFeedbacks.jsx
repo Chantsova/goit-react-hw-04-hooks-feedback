@@ -15,15 +15,15 @@ export default function CounterFeedback() {
   const handelAddFeedback = option => {
     switch (option) {
       case optionsFeedback[0]:
-        setGood(state => state + 1);
+        setGood(prevState => prevState + 1);
         break;
 
       case optionsFeedback[1]:
-        setNeutral(state => state + 1);
+        setNeutral(prevState => prevState + 1);
         break;
 
       case optionsFeedback[2]:
-        setBad(state => state + 1);
+        setBad(prevState => prevState + 1);
         break;
 
       default:
