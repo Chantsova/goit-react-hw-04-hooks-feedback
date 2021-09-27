@@ -1,0 +1,19 @@
+.wrapper {
+  width: 700px;
+  height: 500px;
+  margin: 50px;
+  padding: 25px;
+  background: linear-gradient(
+      45deg,
+      var(--wrapper-bg-light),
+      var(--wrapper-bg-dark)
+    ),
+    url('./unicorn.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  box-shadow: var(--img-shadow-blue) 0px 0px 5px 5px,
+    var(--img-shadow-green) 10px -10px, var(--img-shadow-yellow) 20px -20px,
+    var(--img-shadow-orange) 30px -30px, var(--img-shadow-pink) 40px -40px;
+}

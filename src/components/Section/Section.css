@@ -1,0 +1,7 @@
+.section__title {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 28px;
+  text-shadow: var(--section-title--shadow-color) 0 0 20px;
+  text-align: center;
+  color: var(--section-title-color);
+}

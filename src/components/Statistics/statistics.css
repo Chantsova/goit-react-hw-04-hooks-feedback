@@ -1,0 +1,45 @@
+.rate {
+  margin-top: 50px;
+}
+
+.rate__list {
+  display: flex;
+  justify-content: center;
+}
+
+.rate__list > li {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, #0e1e2552 0px 2px 16px 0px;
+  font-size: 25px;
+  width: 120px;
+}
+
+.rate__item__subtitle {
+  font-weight: 600;
+  text-align: center;
+  color: var(--darkest-text-color);
+  height: 56px;
+}
+
+.rate__item--good {
+  background-color: var(--good-rate-color);
+}
+
+.rate__item--neutral {
+  background-color: var(--neutral-rate-color);
+}
+
+.rate__item--bad {
+  background-color: var(--bad-rate-color);
+}
+
+.rate__item--total {
+  background-color: var(--total-color);
+}
+
+.rate__item--percent {
+  background-color: var(--percentage-color);
+}
