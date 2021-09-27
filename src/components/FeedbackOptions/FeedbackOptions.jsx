@@ -1,7 +1,7 @@
 import './FeedbackOptions.css';
 import React from 'react';
 
-function FeedbackOptions({ options, onLeaveFeedback }) {
+export default function FeedbackOptions({ options, onLeaveFeedback }) {
   return (
     <div className="feedback">
       {options.map(option => (
@@ -17,5 +17,3 @@ function FeedbackOptions({ options, onLeaveFeedback }) {
     </div>
   );
 }
-
-export default FeedbackOptions;
